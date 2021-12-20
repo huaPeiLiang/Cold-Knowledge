@@ -4,7 +4,7 @@
 
 ### Java
 
-[数值比较：考验对自动装箱与拆箱的了解](https://github.com/huaPeiLiang/Cold-Knowledge/blob/master/Java/number_compare.java)
+[数值比较：自动装箱与拆箱、缓存池](https://github.com/huaPeiLiang/Cold-Knowledge/blob/master/Java/number_compare.java)
 
 
 
