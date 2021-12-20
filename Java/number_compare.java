@@ -35,6 +35,8 @@ public class number_compare {
     public void cache() {
         Integer a = Integer.valueOf(1);
         Integer b = 1;
+        Integer c = Integer.valueOf(128);
+        Integer d = 128;
         Integer x = new Integer(1);
         Integer y = new Integer(1);
         Integer z = Integer.valueOf(1);
@@ -46,7 +48,9 @@ public class number_compare {
         System.out.println(b == a);
         System.out.println(b == z);
         System.out.println(b == x);
+        System.out.println(c == d);
     }
+
 
 }
 
@@ -66,7 +70,8 @@ public class number_compare {
     第二题：
         new Integer() 每次都会创建一个新的对象；
         Integer.valueOf() 会使用缓存池中的对象，多次创建引用的是同一个对象，所以 a、z、k 指向同一个对象；
-        Integer b = 1 会使用缓存池中的对象，多次创建引用的是同一个对象，所以 a、b、z、k 指向同一个对象。
+        Integer b = 1 会使用缓存池中的对象，多次创建引用的是同一个对象，所以 a、b、z、k 指向同一个对象；
+        受 -128～127 范围限制，所以 c、d 指向不同的对象。
     答案：
         false
         true
@@ -74,5 +79,6 @@ public class number_compare {
         false
         true
         true
+        false
         false
  */
