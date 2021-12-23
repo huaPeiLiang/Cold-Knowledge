@@ -3,7 +3,7 @@ import org.junit.Test;
 /**
  * 数值类型的比较
  * */
-public class number_compare {
+public class NumberCompare {
 
     /**
      * 第一题：自动装箱与自动拆箱

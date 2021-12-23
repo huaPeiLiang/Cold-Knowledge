@@ -3,7 +3,7 @@ import org.junit.Test;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class object_compare {
+public class ObjectCompare {
 
     public class Person{
 
